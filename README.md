@@ -1,6 +1,6 @@
 # AVGO 1m OHLCV US stocks Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-683_216_rows-blue)](https://getdata.finance/datasets/avgo) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/avgo)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-684_385_rows-blue)](https://getdata.finance/datasets/avgo) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/avgo)
 
 ### -> [**Download the full AVGO dataset on getdata.finance**](https://getdata.finance/datasets/avgo)
 
@@ -23,11 +23,11 @@
 
 - **Ultra high-quality 1m OHLCV** for **Broadcom** (US stocks)
 - **Clean CSV schema** — `datetime, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`1m`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/avgo) · **683,216** `1m` rows in the full archive
+- **Free evaluation sample** on GitHub (`1m`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/avgo) · **684,385** `1m` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [getdata.finance](https://getdata.finance) every **Saturday, 8am UTC+0**; GitHub `1m` sample updated in sync
 
-> **Sample on GitHub** · `AVGO_1m.csv` (55,440 rows, `2026-02-06` -> `2026-09-01`, 5.73 MB). **Full archive on [getdata.finance](https://getdata.finance/datasets/avgo)** — **683,216** `1m` rows (full `1m`: 111,138), **11 timeframes**, `2011-05-09` -> `2026-09-01`.
+> **Sample on GitHub** · `AVGO_1m.csv` (55,440 rows, `2026-02-11` -> `2026-09-04`, 5.46 MB). **Full archive on [getdata.finance](https://getdata.finance/datasets/avgo)** — **684,385** `1m` rows (full `1m`: 111,138), **11 timeframes**, `2011-05-09` -> `2026-09-04`.
 
 ## Download sample
 
@@ -45,9 +45,9 @@ Full archive & live chart on getdata.finance: **[https://getdata.finance/dataset
 |---|--:|---|
 | Instrument | Broadcom · US stocks | Broadcom · US stocks |
 | Timeframes | `1m` (sample) | **11** — 1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W |
-| 1m rows | 55,440 | **683,216** |
-| Size | 5.73 MB | full ZIP on [getdata.finance](https://getdata.finance/datasets/avgo) |
-| Period | `2026-02-06` -> `2026-09-01` | `2011-05-09` -> `2026-09-01` |
+| 1m rows | 55,440 | **684,385** |
+| Size | 5.46 MB | full ZIP on [getdata.finance](https://getdata.finance/datasets/avgo) |
+| Period | `2026-02-11` -> `2026-09-04` | `2011-05-09` -> `2026-09-04` |
 | File | `AVGO_1m.csv` | ZIP on [getdata.finance](https://getdata.finance/datasets/avgo) |
 | Coverage report | — | [AVGO coverage](https://getdata.finance/coverage/avgo) |
 | Updates | Weekly (Saturday, 8am UTC+0) — GitHub sample | Weekly (Saturday, 8am UTC+0) — all timeframes |
@@ -75,21 +75,21 @@ First and latest rows from the GitHub sample **`AVGO_1m.csv`**:
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-02-06T20:00:00+00:00 | 326.62 | 326.65 | 326.19 | 326.55 | 73 |
-| 2026-02-06T20:01:00+00:00 | 326.55 | 326.79 | 326.46 | 326.66 | 50 |
-| 2026-02-06T20:02:00+00:00 | 326.66 | 327.23 | 326.62 | 327.05 | 63 |
-| 2026-02-06T20:03:00+00:00 | 327.05 | 327.38 | 327 | 327.17 | 52 |
-| 2026-02-06T20:04:00+00:00 | 327.17 | 327.18 | 326.95 | 327.05 | 18 |
+| 2026-02-11T19:59:00+00:00 | 337.39 | 337.4 | 337.22 | 337.23 | 29 |
+| 2026-02-11T20:00:00+00:00 | 337.23 | 337.31 | 336.89 | 337.04 | 49 |
+| 2026-02-11T20:01:00+00:00 | 337.04 | 337.45 | 337.04 | 337.42 | 29 |
+| 2026-02-11T20:02:00+00:00 | 337.42 | 337.58 | 337.37 | 337.39 | 33 |
+| 2026-02-11T20:03:00+00:00 | 337.39 | 337.4 | 337.21 | 337.38 | 27 |
 
 **Last rows**
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-09-01T19:55:00+00:00 | 369.13 | 369.92 | 369.13 | 369.69 | 157 |
-| 2026-09-01T19:56:00+00:00 | 369.69 | 369.71 | 368.92 | 369.03 | 158 |
-| 2026-09-01T19:57:00+00:00 | 369.03 | 369.33 | 368.93 | 369.33 | 189 |
-| 2026-09-01T19:58:00+00:00 | 369.33 | 369.74 | 369.12 | 369.57 | 228 |
-| 2026-09-01T19:59:00+00:00 | 369.57 | 370 | 369.52 | 369.77 | 258 |
+| 2026-09-04T19:55:00+00:00 | 357.61 | 358.09 | 357.61 | 357.88 | 178 |
+| 2026-09-04T19:56:00+00:00 | 357.88 | 358.38 | 357.81 | 358.23 | 217 |
+| 2026-09-04T19:57:00+00:00 | 358.23 | 358.35 | 357.76 | 358.07 | 213 |
+| 2026-09-04T19:58:00+00:00 | 358.07 | 358.27 | 357.69 | 357.73 | 199 |
+| 2026-09-04T19:59:00+00:00 | 357.73 | 357.94 | 357.43 | 357.84 | 316 |
 
 ## Schema
 
@@ -154,7 +154,7 @@ print(pf.stats())
 
 ## Download full data
 
-The complete **AVGO** archive on **[getdata.finance](https://getdata.finance/datasets/avgo)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **683,216** rows at `1m`, plus all other timeframes in the same ZIP.
+The complete **AVGO** archive on **[getdata.finance](https://getdata.finance/datasets/avgo)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **684,385** rows at `1m`, plus all other timeframes in the same ZIP.
 
 **[-> Get the full AVGO dataset on getdata.finance](https://getdata.finance/datasets/avgo)**
 
